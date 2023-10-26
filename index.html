@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .popup {
+            width: 300px;
+            box-shadow: 0 0 20px gray;
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: 50px;
+            border-radius: 30px;
+        }
+        .popup__images {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 7px gray;
+            margin-top: -20px;
+            margin-left: 3px;
+        }
+        .popup__title {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 40px;
+            border-bottom: 1px solid gray;
+        }
+        .popup__title,
+        .popup__description {
+            text-align: center;
+        }
+        .popup__link {
+            background-image: url('https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666375582_8-mykaleidoscope-ru-p-yarkaya-priroda-vkontakte-8.jpg');
+            background-position: center;
+            background-size: cover;
+            padding: 10px 25px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 0 7px gray;
+        }
+        .popup__box {
+            text-align: center;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- div.popup>img.popup__images+h1.popup__title{Привер мир}+p.popup__description>lorem^a.popup__link{Ссылка} -->
+    <div class="popup">
+        <img class="popup__images" src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666375582_8-mykaleidoscope-ru-p-yarkaya-priroda-vkontakte-8.jpg" alt="">
+        <h1 class="popup__title">Привет мир</h1>
+        <p class="popup__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Assumenda dicta, odio explicabo sequi quae ducimus, illum soluta labore rem sint dolore quasi officiis, minus nihil dolor debitis voluptatum veritatis!<br> Deleniti!</p>
+        <div class="popup__box">
+            <a href="" class="popup__link">Ссылка</a>
+        </div>
+    </div>
+</body>
+</html>

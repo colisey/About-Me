@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .item-list {
+        display: flex;
+        /* border: 1px solid red; */
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin: 15px 0;
+      }
+      .item-list__image {
+        width: 100px;
+        height: 100px;
+      }
+      .item-list__item {
+        margin-right: 10px;
+      }
+      .item-list__title {
+        margin: 0;
+      }
+      .item-list__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .item-list__marker {
+        background-color: blue;
+        color: white;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .item-list__marker_green {
+        background-color: greenyellow;
+    }
+    .item-list__autor {
+        color: gray;
+        font-size: 10px;
+      }
+      .item-list__title {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+        <div class="item-list">
+            <div class="item-list__item">
+              <img
+                src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666375582_8-mykaleidoscope-ru-p-yarkaya-priroda-vkontakte-8.jpg"
+                alt=""
+                class="item-list__image"
+              />
+            </div>
+            <!-- .item-list__description>.item-list__marker{Travel}+h3.item-list__title>lorem10^.item-list__autor{Некий автор} -->
+            <div class="item-list__description">
+              <span class="item-list__marker">Travel</span>
+              <h3 class="item-list__title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                accusamus!
+              </h3>
+              <div class="item-list__autor">Некий автор</div>
+            </div>
+          </div><div class="item-list">
+            <div class="item-list__item">
+              <img
+                src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666375582_8-mykaleidoscope-ru-p-yarkaya-priroda-vkontakte-8.jpg"
+                alt=""
+                class="item-list__image"
+              />
+            </div>
+            <!-- .item-list__description>.item-list__marker{Travel}+h3.item-list__title>lorem10^.item-list__autor{Некий автор} -->
+            <div class="item-list__description">
+              <span class="item-list__marker item-list__marker_green">Travel</span>
+              <h3 class="item-list__title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                accusamus!
+              </h3>
+              <div class="item-list__autor">Некий автор</div>
+            </div>
+          </div><div class="item-list">
+            <div class="item-list__item">
+              <img
+                src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666375582_8-mykaleidoscope-ru-p-yarkaya-priroda-vkontakte-8.jpg"
+                alt=""
+                class="item-list__image"
+              />
+            </div>
+            <!-- .item-list__description>.item-list__marker{Travel}+h3.item-list__title>lorem10^.item-list__autor{Некий автор} -->
+            <div class="item-list__description">
+              <span class="item-list__marker">Travel</span>
+              <h3 class="item-list__title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                accusamus!
+              </h3>
+              <div class="item-list__autor">Некий автор</div>
+            </div>
+          </div>
+    </div>
+    
+  </body>
+</html>
